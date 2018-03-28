@@ -23,6 +23,10 @@
 
 #include "Arduino.h"
 
+#define LCD_CSR_CMD  0
+#define LCD_CSR_DAT  1
+#define LCD_CSR_RST  2
+
 typedef struct {
     void (*reset) () __reentrant;
     void (*writeCMD)(uint8_t) __reentrant;

@@ -6,6 +6,9 @@
 # Datatypes (KEYWORD1)
 #######################################
 
+LCD_CSR_CMD	KEYWORD1
+LCD_CSR_DAT	KEYWORD1
+LCD_CSR_RST	KEYWORD1
 LCD_STRUCT	KEYWORD1
 
 #######################################
